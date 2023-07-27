@@ -1,9 +1,15 @@
 
-# Title
-some text here
+# Report Title
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-## Sub-Title A
-some text there
+## Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-## Sub-Title B
-some text everywhere
+## Body
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+## Conclusion
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+## References
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
