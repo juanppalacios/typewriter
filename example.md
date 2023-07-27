@@ -1,5 +1,5 @@
 
-# Report Title
+# Title
 Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 ## Introduction
