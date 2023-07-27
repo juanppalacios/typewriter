@@ -28,7 +28,7 @@ def parser():
     
         
     # for each '#' in section matches, include 'sub' 
-    with open('simple.tex', 'w') as file:
+    with open('./scripts/latex/example.tex', 'w') as file:
         # write out header
         
         file.write("\\documentclass{article}\n\n")
