@@ -4,11 +4,12 @@ import re
 
 # todo: read about parser tools: https://supunsetunga.medium.com/writing-a-parser-getting-started-44ba70bb6cc9
 
-# todo: 
+# todo: find a way to run this process in the background
+# todo: maybe find a way to kill this process after you're done with it 
 
 # todo: create a rough but simple parser
 def parser():
-    print('running our parser...')
+    print('running our parser...\n')
     
     # open up our markdown file
     markdown_file = []
@@ -25,7 +26,7 @@ def parser():
     sentence_matches = re.findall(sentence_pattern, markdown_file, flags = re.MULTILINE)
     
     # print(section_matches)
-    print(sentence_matches)
+    # print(sentence_matches)
     
         
     # for each '#' in section matches, include 'sub' 
@@ -43,11 +44,9 @@ def parser():
         # write out 
         file.write("\n\\end{document}")
         
-# \documentclass{article}
-# \begin{document}
-# \section*{title}
-# \end{document}
 if __name__ == '__main__':
+    print("\nWARNING: this script is still under development!\n")
+    
     parser()
 else:
     pass
