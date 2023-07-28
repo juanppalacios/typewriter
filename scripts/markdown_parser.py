@@ -4,10 +4,12 @@ import re
 
 # todo: read about parser tools: https://supunsetunga.medium.com/writing-a-parser-getting-started-44ba70bb6cc9
 
-# todo: find a way to run this process in the background
-# todo: maybe find a way to kill this process after you're done with it 
+# todo: 'pip install schedule' to run scheduled execution
 
-# todo: create a rough but simple parser
+# todo: images
+# todo: listings
+# todo: references
+
 def parser():
     print('running our parser...\n')
     
@@ -15,20 +17,27 @@ def parser():
     markdown_file = []
     latex_file    = []
     
-    with open('example.md', 'r') as file:
+    with open('./src/example.md', 'r') as file:
         markdown_file = file.read()
         
     # section_pattern = r'^#+\s(.+)$'
     section_pattern  = r'^(#+)\s(.+)$'
     sentence_pattern = r'^(?!#)(\S.*)$'
+    image_pattern    = r'^(!)(\S.*)$' 
     
     section_matches  = re.findall(section_pattern, markdown_file, flags = re.MULTILINE)
     sentence_matches = re.findall(sentence_pattern, markdown_file, flags = re.MULTILINE)
+    image_matches    = re.findall(image_pattern, markdown_file, flags = re.MULTILINE)
     
     # print(section_matches)
     # print(sentence_matches)
     
-        
+    print(image_matches)
+    
+    # note: the biggest issue with this is our title, image, and regular text 
+    # note: does not match, i.e., we get mismatched sections, see example.pdf
+    
+    
     # for each '#' in section matches, include 'sub' 
     with open('./scripts/latex/example.tex', 'w') as file:
         # write out header

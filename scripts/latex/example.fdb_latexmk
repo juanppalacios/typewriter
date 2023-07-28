@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1690426191 "/Users/jppalacios/dev/github/typewriter/scripts/latex/example.tex" "example.pdf" "example" 1690426192 0
-  "/Users/jppalacios/dev/github/typewriter/scripts/latex/example.tex" 1690426191 466 9a42ba54ffdbc68168336df751a678a7 ""
+["pdflatex"] 1690510016 "/Users/jppalacios/dev/github/typewriter/scripts/latex/example.tex" "example.pdf" "example" 1690510017 0
+  "/Users/jppalacios/dev/github/typewriter/scripts/latex/example.tex" 1690510016 414 553d090a3a717194faef4901dbc983a0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -15,8 +15,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1689393867 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1689393844 7883454 fecc3e6e9e17afc9c1337d6bc2b0d65d ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "example.aux" 1690426192 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "example.tex" 1690426191 466 9a42ba54ffdbc68168336df751a678a7 ""
+  "example.aux" 1690510017 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "example.tex" 1690510016 414 553d090a3a717194faef4901dbc983a0 ""
   (generated)
   "example.aux"
   "example.log"
